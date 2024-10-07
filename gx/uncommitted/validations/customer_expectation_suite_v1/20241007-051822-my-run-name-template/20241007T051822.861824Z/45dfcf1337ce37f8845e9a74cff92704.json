@@ -1,0 +1,1232 @@
+{
+  "evaluation_parameters": {},
+  "meta": {
+    "active_batch_definition": {
+      "batch_identifiers": {},
+      "data_asset_name": "customers-100.csv",
+      "data_connector_name": "default_inferred_data_connector_name",
+      "datasource_name": "datasource_new_v1"
+    },
+    "batch_markers": {
+      "ge_load_time": "20241007T051822.916678Z",
+      "pandas_data_fingerprint": "984a9ebbe4335c047597746ec1a837a3"
+    },
+    "batch_spec": {
+      "path": "C:\\great_expectations_test\\gx\\..\\data_sources\\customers-100.csv"
+    },
+    "checkpoint_id": null,
+    "checkpoint_name": "customer_checkpoint_v1",
+    "expectation_suite_name": "customer_expectation_suite_v1",
+    "great_expectations_version": "0.18.21",
+    "run_id": {
+      "run_name": "20241007-051822-my-run-name-template",
+      "run_time": "2024-10-07T10:48:22.861824+05:30"
+    },
+    "validation_id": null,
+    "validation_time": "20241007T051823.041344Z"
+  },
+  "results": [
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "45dfcf1337ce37f8845e9a74cff92704",
+          "column": "Index"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 100,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "45dfcf1337ce37f8845e9a74cff92704",
+          "column": "Index",
+          "type_": "int64"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "int64"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_unique",
+        "kwargs": {
+          "batch_id": "45dfcf1337ce37f8845e9a74cff92704",
+          "column": "Index"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 100,
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "unexpected_percent_total": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "45dfcf1337ce37f8845e9a74cff92704",
+          "column": "Customer Id"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 100,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_match_regex",
+        "kwargs": {
+          "batch_id": "45dfcf1337ce37f8845e9a74cff92704",
+          "column": "Customer Id",
+          "regex": "^[a-zA-Z0-9]{15}$"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 100,
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "unexpected_percent_total": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "45dfcf1337ce37f8845e9a74cff92704",
+          "column": "First Name"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 100,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "45dfcf1337ce37f8845e9a74cff92704",
+          "column": "Last Name"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 100,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_value_lengths_to_be_between",
+        "kwargs": {
+          "batch_id": "45dfcf1337ce37f8845e9a74cff92704",
+          "column": "Last Name",
+          "max_value": 10,
+          "min_value": 1
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 100,
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "partial_unexpected_counts": [
+          {
+            "count": 1,
+            "value": "Fitzpatrick"
+          }
+        ],
+        "partial_unexpected_index_list": [
+          28
+        ],
+        "partial_unexpected_list": [
+          "Fitzpatrick"
+        ],
+        "unexpected_count": 1,
+        "unexpected_percent": 1.0,
+        "unexpected_percent_nonmissing": 1.0,
+        "unexpected_percent_total": 1.0
+      },
+      "success": false
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "45dfcf1337ce37f8845e9a74cff92704",
+          "column": "Company"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 100,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_match_regex",
+        "kwargs": {
+          "batch_id": "45dfcf1337ce37f8845e9a74cff92704",
+          "column": "Company",
+          "regex": "(?i)(\\w+-\\w+)|(\\b(Ltd|Inc|Gov|Group|LLC|PLC)\\b)$"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 100,
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "partial_unexpected_counts": [
+          {
+            "count": 1,
+            "value": "Acosta, Petersen and Morrow"
+          },
+          {
+            "count": 1,
+            "value": "Brennan, Acosta and Ramos"
+          },
+          {
+            "count": 1,
+            "value": "Dominguez, Mcmillan and Donovan"
+          },
+          {
+            "count": 1,
+            "value": "Glover and Sons"
+          },
+          {
+            "count": 1,
+            "value": "Greer and Sons"
+          },
+          {
+            "count": 1,
+            "value": "Herrera, Shepherd and Underwood"
+          },
+          {
+            "count": 1,
+            "value": "Hinton, Chaney and Stokes"
+          },
+          {
+            "count": 1,
+            "value": "Hobbs, Garrett and Sanford"
+          },
+          {
+            "count": 1,
+            "value": "Hoffman, Reed and Mcclain"
+          },
+          {
+            "count": 1,
+            "value": "Kaufman and Sons"
+          },
+          {
+            "count": 1,
+            "value": "Lester, Woodard and Mitchell"
+          },
+          {
+            "count": 1,
+            "value": "Manning, Hester and Arroyo"
+          },
+          {
+            "count": 1,
+            "value": "Martin, Lang and Andrade"
+          },
+          {
+            "count": 1,
+            "value": "Oconnell, Meza and Everett"
+          },
+          {
+            "count": 1,
+            "value": "Palmer, Barnes and Houston"
+          },
+          {
+            "count": 1,
+            "value": "Phelps, Forbes and Koch"
+          },
+          {
+            "count": 1,
+            "value": "Price, Sexton and Mcdaniel"
+          },
+          {
+            "count": 1,
+            "value": "Sanford, Davenport and Giles"
+          },
+          {
+            "count": 1,
+            "value": "Singleton and Sons"
+          },
+          {
+            "count": 1,
+            "value": "Waters, Chase and Aguilar"
+          }
+        ],
+        "partial_unexpected_index_list": [
+          3,
+          4,
+          6,
+          7,
+          10,
+          11,
+          15,
+          21,
+          22,
+          27,
+          30,
+          34,
+          35,
+          37,
+          41,
+          44,
+          45,
+          47,
+          49,
+          50
+        ],
+        "partial_unexpected_list": [
+          "Dominguez, Mcmillan and Donovan",
+          "Martin, Lang and Andrade",
+          "Lester, Woodard and Mitchell",
+          "Sanford, Davenport and Giles",
+          "Oconnell, Meza and Everett",
+          "Hoffman, Reed and Mcclain",
+          "Singleton and Sons",
+          "Manning, Hester and Arroyo",
+          "Greer and Sons",
+          "Hinton, Chaney and Stokes",
+          "Acosta, Petersen and Morrow",
+          "Waters, Chase and Aguilar",
+          "Palmer, Barnes and Houston",
+          "Glover and Sons",
+          "Kaufman and Sons",
+          "Herrera, Shepherd and Underwood",
+          "Price, Sexton and Mcdaniel",
+          "Brennan, Acosta and Ramos",
+          "Hobbs, Garrett and Sanford",
+          "Phelps, Forbes and Koch"
+        ],
+        "unexpected_count": 39,
+        "unexpected_percent": 39.0,
+        "unexpected_percent_nonmissing": 39.0,
+        "unexpected_percent_total": 39.0
+      },
+      "success": false
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "45dfcf1337ce37f8845e9a74cff92704",
+          "column": "City"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 100,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "45dfcf1337ce37f8845e9a74cff92704",
+          "column": "Country"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 100,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "45dfcf1337ce37f8845e9a74cff92704",
+          "column": "Phone 1"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 100,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "45dfcf1337ce37f8845e9a74cff92704",
+          "column": "Phone 1",
+          "type_": "int"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 100,
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "partial_unexpected_counts": [
+          {
+            "count": 1,
+            "value": "(041)737-3846"
+          },
+          {
+            "count": 1,
+            "value": "(266)131-7001x711"
+          },
+          {
+            "count": 1,
+            "value": "(283)437-3886x88321"
+          },
+          {
+            "count": 1,
+            "value": "(496)452-6181x3291"
+          },
+          {
+            "count": 1,
+            "value": "(701)087-2415"
+          },
+          {
+            "count": 1,
+            "value": "(781)861-7180x8306"
+          },
+          {
+            "count": 1,
+            "value": "+1-539-402-0259"
+          },
+          {
+            "count": 1,
+            "value": "001-151-330-3524x0469"
+          },
+          {
+            "count": 1,
+            "value": "001-234-203-0635x76146"
+          },
+          {
+            "count": 1,
+            "value": "001-583-352-7197x297"
+          },
+          {
+            "count": 1,
+            "value": "001-808-617-6467x12895"
+          },
+          {
+            "count": 1,
+            "value": "001-949-844-8787"
+          },
+          {
+            "count": 1,
+            "value": "229.077.5154"
+          },
+          {
+            "count": 1,
+            "value": "5153435776"
+          },
+          {
+            "count": 1,
+            "value": "540.085.3135x185"
+          },
+          {
+            "count": 1,
+            "value": "637-854-0256x825"
+          },
+          {
+            "count": 1,
+            "value": "739.218.2516x459"
+          },
+          {
+            "count": 1,
+            "value": "786-284-3358x62152"
+          },
+          {
+            "count": 1,
+            "value": "854-138-4911x5772"
+          },
+          {
+            "count": 1,
+            "value": "936.222.4746x9924"
+          }
+        ],
+        "partial_unexpected_index_list": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "partial_unexpected_list": [
+          "229.077.5154",
+          "5153435776",
+          "+1-539-402-0259",
+          "001-808-617-6467x12895",
+          "001-234-203-0635x76146",
+          "(283)437-3886x88321",
+          "(496)452-6181x3291",
+          "001-583-352-7197x297",
+          "854-138-4911x5772",
+          "739.218.2516x459",
+          "637-854-0256x825",
+          "(041)737-3846",
+          "001-949-844-8787",
+          "786-284-3358x62152",
+          "(781)861-7180x8306",
+          "540.085.3135x185",
+          "936.222.4746x9924",
+          "(701)087-2415",
+          "001-151-330-3524x0469",
+          "(266)131-7001x711"
+        ],
+        "unexpected_count": 100,
+        "unexpected_percent": 100.0,
+        "unexpected_percent_nonmissing": 100.0,
+        "unexpected_percent_total": 100.0
+      },
+      "success": false
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_value_lengths_to_be_between",
+        "kwargs": {
+          "batch_id": "45dfcf1337ce37f8845e9a74cff92704",
+          "column": "Phone 1",
+          "max_value": 13,
+          "min_value": 10
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 100,
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "partial_unexpected_counts": [
+          {
+            "count": 1,
+            "value": "(266)131-7001x711"
+          },
+          {
+            "count": 1,
+            "value": "(283)437-3886x88321"
+          },
+          {
+            "count": 1,
+            "value": "(371)987-8576x4720"
+          },
+          {
+            "count": 1,
+            "value": "(429)005-9030x11004"
+          },
+          {
+            "count": 1,
+            "value": "(496)452-6181x3291"
+          },
+          {
+            "count": 1,
+            "value": "(781)861-7180x8306"
+          },
+          {
+            "count": 1,
+            "value": "+1-539-402-0259"
+          },
+          {
+            "count": 1,
+            "value": "001-151-330-3524x0469"
+          },
+          {
+            "count": 1,
+            "value": "001-234-203-0635x76146"
+          },
+          {
+            "count": 1,
+            "value": "001-274-040-3582x10611"
+          },
+          {
+            "count": 1,
+            "value": "001-583-352-7197x297"
+          },
+          {
+            "count": 1,
+            "value": "001-808-617-6467x12895"
+          },
+          {
+            "count": 1,
+            "value": "001-949-844-8787"
+          },
+          {
+            "count": 1,
+            "value": "354.259.5062x7538"
+          },
+          {
+            "count": 1,
+            "value": "540.085.3135x185"
+          },
+          {
+            "count": 1,
+            "value": "637-854-0256x825"
+          },
+          {
+            "count": 1,
+            "value": "739.218.2516x459"
+          },
+          {
+            "count": 1,
+            "value": "786-284-3358x62152"
+          },
+          {
+            "count": 1,
+            "value": "854-138-4911x5772"
+          },
+          {
+            "count": 1,
+            "value": "936.222.4746x9924"
+          }
+        ],
+        "partial_unexpected_index_list": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12,
+          13,
+          14,
+          15,
+          16,
+          18,
+          19,
+          21,
+          23,
+          24,
+          26
+        ],
+        "partial_unexpected_list": [
+          "+1-539-402-0259",
+          "001-808-617-6467x12895",
+          "001-234-203-0635x76146",
+          "(283)437-3886x88321",
+          "(496)452-6181x3291",
+          "001-583-352-7197x297",
+          "854-138-4911x5772",
+          "739.218.2516x459",
+          "637-854-0256x825",
+          "001-949-844-8787",
+          "786-284-3358x62152",
+          "(781)861-7180x8306",
+          "540.085.3135x185",
+          "936.222.4746x9924",
+          "001-151-330-3524x0469",
+          "(266)131-7001x711",
+          "001-274-040-3582x10611",
+          "354.259.5062x7538",
+          "(429)005-9030x11004",
+          "(371)987-8576x4720"
+        ],
+        "unexpected_count": 62,
+        "unexpected_percent": 62.0,
+        "unexpected_percent_nonmissing": 62.0,
+        "unexpected_percent_total": 62.0
+      },
+      "success": false
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_unique",
+        "kwargs": {
+          "batch_id": "45dfcf1337ce37f8845e9a74cff92704",
+          "column": "Email"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 100,
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "unexpected_percent_total": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "45dfcf1337ce37f8845e9a74cff92704",
+          "column": "Subscription Date"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 100,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "45dfcf1337ce37f8845e9a74cff92704",
+          "column": "Subscription Date",
+          "type_": "date"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 100,
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "partial_unexpected_counts": [
+          {
+            "count": 1,
+            "value": "2020-01-13"
+          },
+          {
+            "count": 1,
+            "value": "2020-02-25"
+          },
+          {
+            "count": 1,
+            "value": "2020-03-25"
+          },
+          {
+            "count": 1,
+            "value": "2020-06-02"
+          },
+          {
+            "count": 1,
+            "value": "2020-08-24"
+          },
+          {
+            "count": 1,
+            "value": "2020-09-24"
+          },
+          {
+            "count": 1,
+            "value": "2020-11-29"
+          },
+          {
+            "count": 1,
+            "value": "2021-02-08"
+          },
+          {
+            "count": 1,
+            "value": "2021-03-10"
+          },
+          {
+            "count": 1,
+            "value": "2021-04-12"
+          },
+          {
+            "count": 1,
+            "value": "2021-04-17"
+          },
+          {
+            "count": 1,
+            "value": "2021-04-23"
+          },
+          {
+            "count": 1,
+            "value": "2021-08-24"
+          },
+          {
+            "count": 1,
+            "value": "2021-09-24"
+          },
+          {
+            "count": 1,
+            "value": "2021-10-20"
+          },
+          {
+            "count": 1,
+            "value": "2021-11-08"
+          },
+          {
+            "count": 1,
+            "value": "2021-12-02"
+          },
+          {
+            "count": 1,
+            "value": "2022-01-26"
+          },
+          {
+            "count": 1,
+            "value": "2022-03-26"
+          },
+          {
+            "count": 1,
+            "value": "2022-04-12"
+          }
+        ],
+        "partial_unexpected_index_list": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "partial_unexpected_list": [
+          "2020-08-24",
+          "2021-04-23",
+          "2020-03-25",
+          "2020-06-02",
+          "2021-04-17",
+          "2020-02-25",
+          "2021-08-24",
+          "2021-04-12",
+          "2020-01-13",
+          "2021-11-08",
+          "2021-10-20",
+          "2020-11-29",
+          "2021-12-02",
+          "2021-02-08",
+          "2022-01-26",
+          "2022-04-12",
+          "2021-03-10",
+          "2022-03-26",
+          "2020-09-24",
+          "2021-09-24"
+        ],
+        "unexpected_count": 100,
+        "unexpected_percent": 100.0,
+        "unexpected_percent_nonmissing": 100.0,
+        "unexpected_percent_total": 100.0
+      },
+      "success": false
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_match_regex",
+        "kwargs": {
+          "batch_id": "45dfcf1337ce37f8845e9a74cff92704",
+          "column": "Subscription Date",
+          "regex": "^\\d{4}\\-\\d{2}\\-\\d{2}$"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 100,
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "unexpected_percent_total": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "45dfcf1337ce37f8845e9a74cff92704",
+          "column": "Website"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 100,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_match_regex",
+        "kwargs": {
+          "batch_id": "45dfcf1337ce37f8845e9a74cff92704",
+          "column": "Website",
+          "regex": "^http://www.[\\w-]+.(com|org|net|info)/?$"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 100,
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "partial_unexpected_counts": [
+          {
+            "count": 1,
+            "value": "http://acosta.org/"
+          },
+          {
+            "count": 1,
+            "value": "http://paul.biz/"
+          },
+          {
+            "count": 1,
+            "value": "http://pitts-cherry.com/"
+          },
+          {
+            "count": 1,
+            "value": "http://stevenson.org/"
+          },
+          {
+            "count": 1,
+            "value": "https://arias.com/"
+          },
+          {
+            "count": 1,
+            "value": "https://callahan.org/"
+          },
+          {
+            "count": 1,
+            "value": "https://goodwin-ingram.com/"
+          },
+          {
+            "count": 1,
+            "value": "https://hammond-ramsey.com/"
+          },
+          {
+            "count": 1,
+            "value": "https://mcconnell.com/"
+          },
+          {
+            "count": 1,
+            "value": "https://meyers.com/"
+          },
+          {
+            "count": 1,
+            "value": "https://moreno.biz/"
+          },
+          {
+            "count": 1,
+            "value": "https://sanford-wilcox.biz/"
+          },
+          {
+            "count": 1,
+            "value": "https://simmons-hurley.com/"
+          },
+          {
+            "count": 1,
+            "value": "https://www.brandt.com/"
+          },
+          {
+            "count": 1,
+            "value": "https://www.bullock.net/"
+          },
+          {
+            "count": 1,
+            "value": "https://www.camacho.net/"
+          },
+          {
+            "count": 1,
+            "value": "https://www.curry.com/"
+          },
+          {
+            "count": 1,
+            "value": "https://www.le.com/"
+          },
+          {
+            "count": 1,
+            "value": "https://www.ramos.com/"
+          },
+          {
+            "count": 1,
+            "value": "https://www.reid-potts.com/"
+          }
+        ],
+        "partial_unexpected_index_list": [
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          13,
+          14,
+          15,
+          17,
+          18,
+          19,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28
+        ],
+        "partial_unexpected_list": [
+          "https://goodwin-ingram.com/",
+          "https://www.le.com/",
+          "https://hammond-ramsey.com/",
+          "https://www.bullock.net/",
+          "https://arias.com/",
+          "https://simmons-hurley.com/",
+          "https://www.brandt.com/",
+          "http://stevenson.org/",
+          "http://acosta.org/",
+          "http://pitts-cherry.com/",
+          "https://mcconnell.com/",
+          "https://www.camacho.net/",
+          "https://www.reid-potts.com/",
+          "http://paul.biz/",
+          "https://moreno.biz/",
+          "https://www.ramos.com/",
+          "https://www.curry.com/",
+          "https://sanford-wilcox.biz/",
+          "https://callahan.org/",
+          "https://meyers.com/"
+        ],
+        "unexpected_count": 70,
+        "unexpected_percent": 70.0,
+        "unexpected_percent_nonmissing": 70.0,
+        "unexpected_percent_total": 70.0
+      },
+      "success": false
+    }
+  ],
+  "statistics": {
+    "evaluated_expectations": 21,
+    "success_percent": 71.42857142857143,
+    "successful_expectations": 15,
+    "unsuccessful_expectations": 6
+  },
+  "success": false
+}
